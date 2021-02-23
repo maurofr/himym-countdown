@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>LEGEN .... DARIO</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <script src="countdown.js"></script>
+    <div id="reloj"></div>
+    <script type="text/javascript">
+      $('#reloj').countdown('2020/12/22', function(event){
+        var $this = $(this).html(event.strftime(''
+            +'<div><span>%D</span><span>DÍAS</span></div>'
+            +'<div><span>%H</span><span>HORAS</span></div>'
+            +'<div><span>%M</span><span>MINUTOS</span></div>'
+            +'<div><span>%S</span><span>SEGUNDOS</span></div>'
+            ))
+      });
+    </script>
+  </body>
+</html>

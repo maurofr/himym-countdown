@@ -1,0 +1,43 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #000000;
+  font-family: 'Impact', serif;
+}
+
+#reloj
+{
+  display: flex;
+  width: 570px;
+  margin: 0 auto;
+}
+
+#reloj div
+{
+  position: relative;
+  left: -100px;
+  top: 300px;
+  width: 200px;
+  padding: 20px;
+  margin: 0 5px;
+  color: #FFFFFF;
+}
+
+#reloj div span
+{
+  display: block;
+  text-align: center;
+}
+
+#reloj div span:nth-child(1)
+{
+  font-size: 90px;
+  color: #FF0000;
+}
+
+#reloj div span:nth-child(2)
+{
+  font-size: 38px;
+  margin-top: -15px;
+}
