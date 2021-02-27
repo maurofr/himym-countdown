@@ -8,4 +8,4 @@ December 22nd. The countdown ends on that day of the current year.
 
 Here is the original:
 
-![Original countdown from the series](/images/8x8.PNG)
+![Original countdown from the series](countdown.PNG)
